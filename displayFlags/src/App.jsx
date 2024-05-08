@@ -1,4 +1,6 @@
+// import { React } from "React";
 import { useState } from 'react'
+import {Countries} from './Components/Countries.jsx'
 
 
 import './App.css'
@@ -8,7 +10,8 @@ function App() {
 
   return (
     <>
-   <h1>Display Flags</h1>
+    <Countries/>
+   
     </>
   )
 }
